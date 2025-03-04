@@ -3,10 +3,10 @@
 # Parameter: This is a placeholder in a function definition. It's like a variable that will hold the value you pass to the function.
 # Argument: This is the actual value you pass to the function when you call it.
 
-def greet(name):  # 'name' is a parameter
+def greet(name):
     print(f"Hello, {name}!")
 
-greet("We are the Ramones, 1234!")  # 'We are the Ramones, 1234!' is an argument
+greet("We are the Ramones, 1234!")
 
 # Breakdown:
 # Function Definition: def greet(name):

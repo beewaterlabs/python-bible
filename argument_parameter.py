@@ -1,4 +1,4 @@
-# argument-parameter.py
+# argument_parameter.py
 
 # Parameter: This is a placeholder in a function definition. It's like a variable that will hold the value you pass to the function.
 # Argument: This is the actual value you pass to the function when you call it.

@@ -1,0 +1,35 @@
+# For loop examples:
+
+# Alpabetized Fruit list:
+
+fruits = ["apple", "grape", "kiwi", "orange"]
+fruits.sort()
+print("Sorted Fruits:")
+for fruit in fruits:
+    print(fruit)
+
+# Output:
+
+Sorted Fruits:
+apple
+grape
+kiwi
+orange
+
+# Alpabetized Ramones production list:
+
+ramones = ["Joey", "Jhonny", "DeeDee", "DrummerGuy", "AV-Guy", "Lights-Guy"]
+ramones.sort()
+print("In order of appearance:")
+for ramone in ramones:
+    print(ramone)
+
+# Output:
+
+In order of appearance:
+AV-Guy
+DeeDee
+DrummerGuy
+Jhonny
+Joey
+Lights-Guy

@@ -16,20 +16,19 @@ grape
 kiwi
 orange
 
-# Alpabetized Ramones production list:
+# Alpabetized Beatles members:
 
-ramones = ["Joey", "Jhonny", "DeeDee", "DrummerGuy", "AV-Guy", "Lights-Guy"]
-ramones.sort()
-print("In order of appearance:")
-for ramone in ramones:
-    print(ramone)
+beatles = ["John", "Paul", "George", "Ringo"]
+beatles.sort()
+print("Beatles, in order of appearance:\n")
+for beatle in beatles:
+    print(beatle)
 
 # Output:
 
-In order of appearance:
-AV-Guy
-DeeDee
-DrummerGuy
-Jhonny
-Joey
-Lights-Guy
+Beatles, in order of appearance:
+
+George
+John
+Paul
+Ringo

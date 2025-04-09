@@ -6,7 +6,7 @@
 def greet(name):
     print(f"Hello, {name}!")
 
-greet("We are the Ramones, 1234!")
+greet("We are the Ramones, 1234")
 
 # Breakdown:
 # Function Definition: def greet(name):

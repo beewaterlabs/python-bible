@@ -17,5 +17,9 @@ end = " years old"
 
 output = "{}{}{}".format(start, age, end)
 
+# An example output string would be "I am 15 years old"
+
+# Finally, print the output to the screen using the print() function.
+
 print(output)
 

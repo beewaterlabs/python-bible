@@ -1,0 +1,79 @@
+# Slice notes
+
+word = "supercalifragilisticexpialidocious"
+        
+word[5:9:1]
+        
+'cali'
+
+word[8]
+        
+'i'
+word[:8]
+        
+'supercal'
+
+word[::-1]
+        
+'suoicodilaipxecitsiligarfilacrepus'
+
+word[word.index("docious"):]
+        
+'docious'
+
+$$$$$$$$$$$$$$$$$Quiz Notes$$$$$$$$$$$$$$$$$$$$$$$
+
+## The basic slice format is:
+
+variable[start:end:step]
+
+##  Pull out the word "happy" using a slice:
+
+string = "happy_birthday"
+
+string[:string.index("_")]
+
+>>> 'happy'
+
+##  I want you to use a slice to take the word "establishment" out of this long word and store it in a variable called answer:
+
+word = "antidisestablishmentarianism"
+
+word[word.index("est"):word.index("ari")]
+'establishment'
+
+answer = word[word.index("est"):word.index("ari")]
+
+
+$$$$$$$$$$$$$$$$$Quiz Notes$$$$$$$$$$$$$$$$$$$$$$$
+
+
+# Find command:
+
+x = "happy birthday"
+
+x.find("birthday")
+6
+
+# Is alpha command:
+
+"abcd".isalpha()
+True
+
+# Is alnum command:
+
+y = "happybirthday123"
+y.isalnum()
+True
+
+# UPPER / lower commands:
+
+x = "Happy Birthday"
+x.lower()
+'happy birthday'
+x.upper()
+'HAPPY BIRTHDAY'
+
+
+
+

@@ -1,0 +1,18 @@
+# Slice notes
+
+word = "supercalifragilisticexpialidocious"
+        
+word[5:9:1]
+        
+'cali'
+
+word[8]
+        
+'i'
+word[:8]
+        
+'supercal'
+
+word[::-1]
+        
+'suoicodilaipxecitsiligarfilacrepus'

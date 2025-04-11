@@ -19,4 +19,5 @@ domain = email[email.index("@") + 1:]
 
 # display output message
 
-yooooo!
+print("yooooo!")
+

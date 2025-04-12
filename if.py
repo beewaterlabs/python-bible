@@ -1,10 +1,12 @@
-num1 = 100
-num2 = 100
+num1 = 400
+num2 = 600
 
-if num1>num2:
-    print("num 1 is bigger than num 2")
-elif num2 > num1:
-    print("num 2 is bigger than num 1")
-else:
-    print("Both numbers are equal")
+if num1 > num2: # Replace CONDITION1 with a valid condition that makes this work:
+    print("num1 is bigger than num2")
 
+elif num1 == num2: # Replace CONDITION2 with a valid condition that makes this work:
+    print("num1 is equal to num2")
+    
+elif num2 > num1: # Replace CONDITION3 with a valid condition that makes this work:
+    print("num2 is bigger than num1")
+    

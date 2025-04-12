@@ -33,4 +33,6 @@ if not (C > 10 and D > 1):
 #  1 | 1 |    1
 ###
 
-
+# not gate only gives true if the condition is false:
+if not (C > 100 or D > 100):
+    print("it worked")

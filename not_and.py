@@ -19,6 +19,11 @@ if C >= 10 and D > 1:
 if not (C > 10 and D > 1):
     print("it worked")
 
+# not gate only gives true if the condition is false:
+if not (C > 100 or D > 100):
+    print("it worked")
+
+
 ### OR gate Table:
 # A and B: Represent the two input values (0 or 1, which correspond to False or True).
 # A OR B: Represents the output of the OR operation. 
@@ -32,13 +37,11 @@ if not (C > 10 and D > 1):
 #  1 | 0 |    1
 #  1 | 1 |    1
 ###
-
-# not gate only gives true if the condition is false:
-if not (C > 100 or D > 100):
-    print("it worked")
-
+# OR gate only gives true if one of the conditions is true:
+# A | B | A OR B
 C = 6
 D = 2
 
 if (C > 5 and D > 5) or (C > 1 and D > 1):
     print("it worked") 
+    

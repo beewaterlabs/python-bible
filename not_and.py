@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 C = 10
 D = 5
 if C >= 10 and D > 1:

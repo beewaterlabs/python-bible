@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 num1 = 400
 num2 = 600
 

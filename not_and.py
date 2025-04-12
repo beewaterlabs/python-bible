@@ -19,3 +19,18 @@ if C >= 10 and D > 1:
 if not (C > 10 and D > 1):
     print("it worked")
 
+###
+# A and B: Represent the two input values (0 or 1, which correspond to False or True).
+# A OR B: Represents the output of the OR operation. 
+# The OR operation is true (1) if at least one of the inputs is true (1). 
+# It's only false (0) if both inputs are false (0).
+
+#A | B | A OR B
+# ---+---+--------
+#  0 | 0 |    0
+#  0 | 1 |    1
+#  1 | 0 |    1
+#  1 | 1 |    1
+###
+
+

@@ -30,4 +30,10 @@ print(our_list[2])
 print(our_list[2][0])
 # 3
 
+print(our_list[2][1])
+# 4
 
+print(our_list[2][2])
+# 5
+
+   

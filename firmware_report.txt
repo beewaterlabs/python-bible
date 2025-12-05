@@ -1,5 +1,5 @@
 Firmware Check Report
-Generated: 2025-12-05 00:29:34.800562
+Generated: 2025-12-05 14:43:44.212093
 Hostname: Brandons-MacBook-Pro.local
 OS: Darwin 24.6.0
 ==================================================
